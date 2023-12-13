@@ -1,0 +1,7 @@
+giveNumber = input("Введите целое пятизначное число: ")
+print(giveNumber[0])
+print(giveNumber[1])
+print(giveNumber[2])
+print(giveNumber[3])
+print(giveNumber[4])
+print("Result ",(int(giveNumber[3])**int(giveNumber[4]))*int(giveNumber[2])/(int(giveNumber[0])-int(giveNumber[1])))
